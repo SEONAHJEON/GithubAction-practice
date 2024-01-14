@@ -6,6 +6,7 @@ function factorial(n) {
   if (n === 0) {
     return 1;
   } 
+  console.log('This is normal routine by SJ');
   return n * factorial(n-1);
   }
 
